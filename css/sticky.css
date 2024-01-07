@@ -1,0 +1,7 @@
+.sticky {
+  position: sticky;
+  inset-block-start: 0;
+  backdrop-filter: blur(50px);
+  z-index: 1;
+
+}

@@ -1,0 +1,22 @@
+.button {
+  color: var(--white);
+  background: var(--primaryBlue);
+  padding-inline: 1.5rem;
+  padding-block: .8rem;
+  border-radius: .25rem;
+  border: .125rem solid transparent;
+  font: var(--button);
+  cursor: pointer;
+  transition: scale .2s;
+}
+
+.button.is-secondary {
+  background: transparent;
+  color: var(--primaryBlue);
+  border: .125rem solid var(--primaryBlue);
+}
+
+.button:hover,
+.button:focus {
+  scale: .9;
+}

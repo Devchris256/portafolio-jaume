@@ -1,0 +1,46 @@
+.present {
+  font: var(--headline5);
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-block: 2.5rem;
+  align-items: center;
+}
+
+.present p {
+  margin: 0;
+  text-align: center;
+}
+
+.present p:nth-of-type(2) {
+  font-weight: bold;
+}
+
+.present img {
+  inline-size: 5rem;
+  aspect-ratio: 1/1;
+  vertical-align: bottom;
+}
+
+
+@media screen and (min-width:768px) {
+  .present {
+    padding-block: 3rem;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .present {
+    padding-block: 6rem;
+    font: var(--headline4);
+    font-weight: normal;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .present {
+    padding-block: 12.5rem;
+  }
+}
+

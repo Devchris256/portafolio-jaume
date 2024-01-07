@@ -1,0 +1,35 @@
+.contacto {
+  padding-block-start: 2.5rem;
+  padding-block-end: 5rem;
+}
+
+.contacto-content {
+  max-inline-size: 33.9375rem;
+  margin: auto;
+}
+
+.contacto h2 {
+  font: var(--headline5);
+  color: var(--white);
+  background: var(--primaryBlue);
+  padding-inline: 0.5rem;
+  padding-block: .25rem;
+  box-shadow: -.3125rem .3125rem 0 var(--white);
+  display: inline-flex;
+  margin: 0;
+  margin-block-end: 1rem;
+}
+
+.contacto p {
+  color: var(--white);
+  margin: 0;
+  margin-block-end: 1.5rem;
+}
+
+@media screen and (min-width:768px){
+  .contacto h2 {
+    font: var(--headline4);
+    display: block;
+    text-align: center;
+  }
+}

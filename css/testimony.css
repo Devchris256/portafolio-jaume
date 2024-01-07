@@ -1,0 +1,54 @@
+.testimony {
+  padding-block-start: 2rem;
+  padding-block-end: 5rem;
+}
+
+.testimony-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  background: rgba(255, 255, 255, .2);
+  backdrop-filter: blur(5px);
+  box-shadow: inset 2px 2px 0px rgba(255, 255, 255, .7);
+}
+
+.testimony p:first-of-type {
+  font-weight: bold;
+  color: var(--primaryBlue);
+  margin: 0;
+}
+
+.testimony p:last-of-type {
+  font: var(--caption);
+  margin: 0;
+}
+
+.testimony-img {
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .testimony {
+    padding-block: 5rem;
+  }
+
+  .testimony-content {
+    padding: 3rem;
+  }
+
+  .testimony p {
+    text-align: center;
+  }
+
+  .testimony-content p:first-of-type {
+    font: var(--headline4);
+  }
+
+  .testimony-content p:last-of-type {
+    font: var(--headline5);
+    font-weight: normal;
+  }
+}
+

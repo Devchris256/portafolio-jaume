@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1rem;
+}
+
+.header-img {
+  vertical-align: middle;
+  inline-size: 4.375rem;
+  block-size: 1.1875rem;
+}
+
+
+@media screen and (min-width:1365px) {
+  .header {
+    justify-content: flex-start;
+    gap: 3rem;
+    padding-block: 1.5rem;
+  }
+
+  .header .button {
+    display: none;
+  }
+}
